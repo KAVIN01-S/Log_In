@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1 id="h_1">Sign Up</h1>
+    <div id="loginForm">
+        <form>
+            <div class="details">
+            <a id="label">Enter Display Name <input type="text" id="display_name" placeholder="Display Name"></a>
+            <a id="label">Enter UserId
+            <input type="text" id="userid" placeholder="UserId"></a>
+            <a id="label">Enter Date Of Birth</a><input type="date" id="date" placeholder="Date Of birth"></a><br>
+            <a id="label">Enter E-Mail Address</a><input type="email" id="email" placeholder="E-Mail address"></a>
+            <a id="label">Enter Phone Number<input type="tel" id="number" placeholder="Phone Number" pattern="\d{10}$" maxlength="10"></a>
+        </div>
+            
+            <button>Sign Up</button>
+            <div id="signupContainer">
+                <span>Already have an account?</span>
+                <!-- <button type="button" id="signupButton">Sign Up</button> -->
+                <a href="index.html" style="color: white;">Sign in</a>
+              </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
